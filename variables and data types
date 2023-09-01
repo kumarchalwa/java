@@ -1,0 +1,39 @@
+// Variables and Data Types
+var name = "John";
+var age = 30;
+var isStudent = false;
+
+// Conditional Statement
+if (age >= 18) {
+  console.log(name + " is an adult.");
+} else {
+  console.log(name + " is a minor.");
+}
+
+// Function
+function greet(personName) {
+  return "Hello, " + personName + "!";
+}
+
+console.log(greet(name)); // Outputs: Hello, John!
+
+// Arrays
+var fruits = ["apple", "banana", "orange"];
+console.log("Fruits:", fruits);
+console.log("First fruit:", fruits[0]);
+
+// Loop (for)
+for (var i = 0; i < fruits.length; i++) {
+  console.log("Fruit at index " + i + ": " + fruits[i]);
+}
+
+// Object
+var person = {
+  name: "Alice",
+  age: 25,
+  isStudent: true
+};
+
+console.log("Person:", person);
+console.log("Name:", person.name);
+
