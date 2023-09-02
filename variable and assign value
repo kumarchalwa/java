@@ -1,0 +1,22 @@
+/ Declare a variable and assign a value
+var myName = "John";
+
+// Display a message using the variable
+console.log("Hello, " + myName + "!");
+
+// Declare a function
+function greet(name) {
+    console.log("Welcome, " + name + "!");
+}
+
+// Call the function
+greet("Alice");
+
+// Use conditional statements (if-else)
+var age = 25;
+
+if (age < 18) {
+    console.log("You are a minor.");
+} else {
+    console.log("You are an adult.");
+}
