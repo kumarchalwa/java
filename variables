@@ -1,0 +1,27 @@
+// Display a message using variables
+console.log("Hello, my name is " + name + " and I am " + age + " years old.");
+
+// Conditional statement (if-else)
+if (age >= 18) {
+    console.log("I am an adult.");
+} else {
+    console.log("I am a minor.");
+}
+
+// Arrays
+let fruits = ["apple", "banana", "cherry"];
+
+// Loop through an array and display its elements
+console.log("My favorite fruits are:");
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+
+// Function
+function multiply(a, b) {
+    return a * b;
+}
+
+// Call the function
+let result = multiply(5, 3);
+console.log("5 multiplied by 3 is " + result);
