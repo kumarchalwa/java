@@ -1,0 +1,14 @@
+public class RandomNumberExample {
+    public static void main(String[] args) {
+        // Generate a random double between 0 (inclusive) and 1 (exclusive)
+        double randomDouble = Math.random();
+
+        // Scale the random double to a specific range, e.g., 1 to 100
+        int min = 1;
+        int max = 100;
+        int randomInt = (int) (min + (randomDouble * (max - min + 1)));
+
+        // Print the random integer
+        System.out.println("Random Number: " + randomInt);
+    }
+}
